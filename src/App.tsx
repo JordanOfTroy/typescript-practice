@@ -70,7 +70,7 @@ class App extends React.Component<TemperatureProps, TemperatureState>{
     const scale = this.props.scale
     // const toggle = this.state.toggle
     // console.log(this.props.scale)
-    console.log(this.state.toggle)
+    // console.log(this.state.toggle)
 
     return (
       <div className='page'>
