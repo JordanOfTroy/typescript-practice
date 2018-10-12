@@ -1,5 +1,9 @@
 # TypeScript
 
+## Resources
+
+https://www.typescriptlang.org/docs/home.html
+
 ## First: What is TypeScript?
 
   Typescript is a tool that allows the user to define specific types of variables and then it transposes it into plain cleaner JavaScript, but stores the information regarding those specific types as well.  
