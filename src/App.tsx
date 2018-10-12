@@ -46,7 +46,7 @@ class App extends React.Component<TemperatureProps, TemperatureState>{
       this.setState({
         toggle: false
       })
-    } 
+    }
   }
 
   handleButton2(){

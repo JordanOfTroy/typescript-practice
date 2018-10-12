@@ -21,6 +21,7 @@ It's also more efficient in catching errors, than to have it fail at runtime.
   In order to use TypeScript within React, we will have to initialize the app.
 
   ```
+  npm i -g typescript
   create-react-app your-app-name --scripts-version=react-scripts-ts
   ```
 
