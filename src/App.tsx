@@ -73,15 +73,17 @@ class App extends React.Component<TemperatureProps, TemperatureState>{
     console.log(this.state.toggle)
 
     return (
-      <div>
+      <div className='page'>
+        <div className='container'>
         <fieldset>
           <legend>Enter temperature in {scaleNames[scale!]}:</legend>
           <input value={temperature} onChange={this.handleChange} type="text" /> <br />
-          <button onClick={this.handleButton}>Show Me in Celcius</button> <br />
-          <button onClick={this.handleButton2}>Show Me in Fahrenheit</button> <br />
+          <button className='press' onClick={this.handleButton}>Show Me in Celcius</button> <br />
+          <button className='press' onClick={this.handleButton2}>Show Me in Fahrenheit</button> <br />
 
           <p>{this.changeTemp()}</p>
         </fieldset>
+        </div>
       </div>
     );
   }
