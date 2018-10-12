@@ -1,8 +1,10 @@
+// Line 2: * is used instead of react, because this is a more explicit version of saying we want everything from React
 import * as React from 'react';
 import './App.css';
 
 import logo from './logo.svg';
 
+// Line 8: We need to use dot notation, due to the initial import on line 2
 class App extends React.Component {
   public render() {
     return (
